@@ -49,7 +49,6 @@ default_projects:
     - project.uvoptx
     - project.uvprojx
     - README.md
-    - rt-thread
     - rtconfig.h
     - rtconfig.py
     - rtconfig_preinc.h
