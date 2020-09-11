@@ -96,6 +96,6 @@ features:
 - "常用接口：USB 支持 3 种不同接口：虚拟 COM 端口、大容量存储和调试端口"
 - "调试接口: SWD"
 pkg_type: Board_Support_Packages
-pkg_vendor: RealThead
+pkg_vendor: RealThread
 pkg_version: 0.1.0
 yaml_version: 1
