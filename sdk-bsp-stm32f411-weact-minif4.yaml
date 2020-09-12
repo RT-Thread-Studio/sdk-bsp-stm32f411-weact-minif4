@@ -90,7 +90,13 @@ docs:
   title: STM32F411CE Datasheet
 example_projects: []
 features:
-- "MCU：STM32F411CEU，主频 100MHz，512KB FLASH ，128KB RAM。"
+- "MCU: STM32F411CEU，100MHz，512KB FLASH ，128KB RAM"
+- "LED: user LED (LD1), power LED (LD2)"
+- "Buttons: USER, BOOT0 and RESET"
+- "Interface: USB supports 3 different interfaces: virtual COM port, mass storage and debugging port"
+- "Debug: SWD"
+features_zh:
+- "MCU：STM32F411CEU，主频 100MHz，512KB FLASH ，128KB RAM"
 - "LED: 2 个, user LED (LD1), power LED (LD2)"
 - "按键: 3 个, USER, BOOT0 and RESET"
 - "常用接口：USB 支持 3 种不同接口：虚拟 COM 端口、大容量存储和调试端口"
@@ -98,4 +104,4 @@ features:
 pkg_type: Board_Support_Packages
 pkg_vendor: RealThread
 pkg_version: 0.1.0
-yaml_version: 1
+yaml_version: 2
