@@ -9,7 +9,7 @@
 *.pdb
 *.idb
 *.ilk
-*.old
+!*.old
 build
 Debug
 documentation/html
@@ -39,6 +39,6 @@ DebugConfig/
 RTE/
 settings/
 *.uvguix*
-cconfig.h
-board/CubeMX_Config/Drivers
-board/CubeMX_Config/MDK-ARM
+!cconfig.h
+!board/CubeMX_Config/Drivers
+!board/CubeMX_Config/MDK-ARM
